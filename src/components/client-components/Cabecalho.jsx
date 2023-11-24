@@ -27,7 +27,7 @@ const Cabecalho = () => {
           <div className={styles.centerLinks}>
             <ul className={`${styles.cabecalhoLista} ${menuOpen ? styles.active : ''}`}>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'comoFunciona' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('comoFunciona')}>
+                <Link href="../como-funciona" onClick={() => handleLinkClick('comoFunciona')}>
                   Como Funciona
                 </Link>
               </li>
@@ -37,7 +37,7 @@ const Cabecalho = () => {
                 </Link>
               </li>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'sobreNos' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('sobreNos')}>
+                <Link href="../sobre" onClick={() => handleLinkClick('sobreNos')}>
                   Sobre nós
                 </Link>
               </li>
@@ -46,7 +46,7 @@ const Cabecalho = () => {
           <div className={styles.loginItem} >
             <ul className={`${styles.cabecalhoLista} ${menuOpen ? styles.active : ''}`}>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'login' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('login')}>
+                <Link href="../login" onClick={() => handleLinkClick('login')}>
                   Login
                 </Link>
               </li>
